@@ -9,5 +9,5 @@
 
 ## About Laravel
 
-1.php artisan migrate:fresh --seed --seeder=akses
+1.php artisan migrate:fresh --seed --seeder=akses  
 2.php artisan serve
