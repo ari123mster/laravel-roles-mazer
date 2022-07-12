@@ -8,6 +8,9 @@
 </p>
 
 ## About Laravel
+Laravel dengan Template admin stisla + manajemen hak akses (spatie)  
 
-1.php artisan migrate:fresh --seed --seeder=akses  
-2.php artisan serve
+
+1.php artisan optimize    
+2.php artisan migrate:fresh --seed --seeder=akses  
+3.php artisan serve
