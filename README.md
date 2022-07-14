@@ -4,7 +4,9 @@
 
 Laravel dengan Template admin stisla + manajemen hak akses (spatie)  
 
-1.composer install  
-2.php artisan optimize    
-3.php artisan migrate:fresh --seed --seeder=akses  
-4.php artisan serve
+1.cp .ev.example .env  
+2.setup your database name  
+3.composer install  
+4.php artisan optimize    
+5.php artisan migrate:fresh --seed --seeder=akses  
+6.php artisan serve
