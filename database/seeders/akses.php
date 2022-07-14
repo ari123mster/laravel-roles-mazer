@@ -20,14 +20,18 @@ class akses extends Seeder
 
         // create permissions
 
-        Permission::create(['name' => 'siswa-create']);
-        Permission::create(['name' => 'siswa-edit']);
-        Permission::create(['name' => 'siswa-delete']);
+        Permission::create(['name' => 'user-create']);
+        Permission::create(['name' => 'user-edit']);
+        Permission::create(['name' => 'user-delete']);
+        Permission::create(['name' => 'role-create']);
+        Permission::create(['name' => 'role-show']);
+        Permission::create(['name' => 'role-edit']);
+        Permission::create(['name' => 'role-delete']);
       
 
         //create roles and assign existing permissions
         $writerRole = Role::create(['name' => 'writer']);
-        $writerRole->givePermissionTo('siswa-delete');
+        $writerRole->givePermissionTo('user-delete');
       
 
      
